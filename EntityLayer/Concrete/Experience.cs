@@ -7,13 +7,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EntityLayer.Concrete
 {
-    public class Feature
+    public class Experience
     {
         [Key]
-        public int FeatureID { get; set; }
+        public int ExperienceID { get; set; }
 
-        public string Header { get; set; }
         public string Name { get; set; }
-        public string Title { get; set; }
+        public string Date { get; set; }
+        public string ImageUrl { get; set; }
+        public string Description { get; set; }
     }
 }
